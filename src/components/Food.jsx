@@ -36,7 +36,7 @@ export default function Food() {
               <button onClick={() => setFoods(data)} className='m-2 border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white duration-700 rounded px-5 py-1 '>All</button>
               <button onClick={() => filterType('burger')} className='m-2 border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white duration-700 rounded px-2 py-1 '>Burger</button>
               <button onClick={() => filterType('pizza')} className='m-2 border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white duration-700 rounded px-4 py-1 '>Pizza</button>
-              <button onClick={() => filterType('salads')} className='m-2 border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white duration-700 rounded px-2 py-1 '>Salads</button>
+              <button onClick={() => filterType('salad')} className='m-2 border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white duration-700 rounded px-2 py-1 '>Salads</button>
               <button onClick={()=> filterType('chicken')} className='m-2 border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white duration-700 rounded px-2 py-1 '>Chicken</button>
             </div>
             </div>
